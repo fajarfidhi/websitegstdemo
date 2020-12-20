@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .appointment-btn {
   margin-left: 25px;
-  background: #424242;
+  background: #e60303;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -368,9 +368,9 @@ h1, h2, h3, h4, h5, h6 {
   background: -ms-linear-gradient(0deg,#424242 0%, #910303 100%);
   */ 
   background-color: white;
-  color: black;
+  color: rgb(131, 8, 8);
   border-top-color: 5px #424242;
-  box-shadow: 0 1px 0.5em 0em rgb(8, 8, 8);
+  box-shadow: 0 1px 0.5em 0em rgb(243, 5, 5);
   transform: translateY(-0.25em);
 
 }

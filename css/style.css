@@ -987,26 +987,21 @@ section {
   padding: 20px 20px;
   transition: all ease-in-out 0.3s;
   background: white;
-  border-radius: 3%;
+  border-radius: 3%; 
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: rgb(255, 40, 2);
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   transform-style: preserve-3d;
-}
-
-.services .icon-box .icon i {
-  color: #fff;
-  font-size: 28px;
 }
 
 .services .icon-box .icon::before {
@@ -1016,7 +1011,6 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: #f88989;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   transform: translateZ(-1px);
@@ -1025,7 +1019,7 @@ section {
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .services .icon-box h4 a {
@@ -1034,7 +1028,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 0;
 }
 
@@ -1042,33 +1036,6 @@ section {
   background: white;
   box-shadow: 0 1px 0.5em 0em rgb(8, 8, 8);
 }
-
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
-  
-}
-
-.services .icon-box .icon .img-icon-camera{
-  width: 64px;
-  height: 40px;
-  margin: 2px;
-  background: url(../img/logo/Camera-white-1.png);
-} 
-
-
-.services .icon-box .icon .img-icon-ptz{
-  width: 64px;
-  height: 40px;
-  margin: 2px;
-  background: url(../img/logo/PTZ-1.png);
-} 
-
-
-.services .icon-box .icon .img-icon-ai{
-  width: 64px;
-  height: 40px;
-  margin: 2px;
-  background: url(../img/logo/AI-Camera-1-1.png);
-} 
 
 
 

@@ -833,7 +833,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/Dahua-CCTV-4.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -984,7 +984,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #aca7aa;
-  padding: 80px 20px;
+  padding: 20px 20px;
   transition: all ease-in-out 0.3s;
   background: white;
   border-radius: 3%;
@@ -1039,23 +1039,12 @@ section {
 }
 
 .services .icon-box:hover {
-  background: -webkit-linear-gradient(0deg, #e91d1d 0%, #960505 100%);
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: rgb(255, 40, 2);
-}
-
-.services .icon-box:hover .icon::before {
-  background: #f5aeae;
+  background: white;
+  box-shadow: 0 1px 0.5em 0em rgb(8, 8, 8);
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;    
+  
 }
 
 .services .icon-box .icon .img-icon-camera{
@@ -1065,13 +1054,6 @@ section {
   background: url(../img/logo/Camera-white-1.png);
 } 
 
-.services .icon-box:hover .icon .img-icon-camera{
-  width: 64px;
-  height: 40px;
-  margin: 2px;
-  background: url(../img/logo/Camera-1.png);
-  color: #f73c03;
-}
 
 .services .icon-box .icon .img-icon-ptz{
   width: 64px;
@@ -1080,13 +1062,6 @@ section {
   background: url(../img/logo/PTZ-1.png);
 } 
 
-.services .icon-box:hover .icon .img-icon-ptz{
-  width: 64px;
-  height: 40px;
-  margin: 2px;
-  background: url(../img/logo/PTZ.png);
-  color: #f73c03;
-}
 
 .services .icon-box .icon .img-icon-ai{
   width: 64px;
@@ -1095,13 +1070,7 @@ section {
   background: url(../img/logo/AI-Camera-1-1.png);
 } 
 
-.services .icon-box:hover .icon .img-icon-ai{
-  width: 64px;
-  height: 40px;
-  margin: 2px;
-  background: url(../img/logo/AI-Camera-1.png);
-  color: #f73c03;
-}
+
 
 /*--------------------------------------------------------------
 # Portfolio

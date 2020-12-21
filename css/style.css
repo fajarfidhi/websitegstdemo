@@ -372,7 +372,6 @@ h1, h2, h3, h4, h5, h6 {
   border-top-color: 5px #424242;
   box-shadow: 0 1px 0.5em 0em rgb(243, 5, 5);
   transform: translateY(-0.25em);
-
 }
 
 .appointment-btn:focus{
